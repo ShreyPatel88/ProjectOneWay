@@ -12,15 +12,12 @@ html{
     background-color: black;
 }
 
-nav img{
-    display: block;
+nav img{    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-
     padding: 15px;
-    background-color: #000000ea;
-
+    background-color: #000000de;
 }
 
 body .front{
@@ -113,25 +110,28 @@ body .front{
     margin: 10px;
 }
 
-
-.devs h1, h2{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 12px;
-}
-
 .devTabs .devs h1{
     font-family: 'Montserrat', sans-serif;
+    color: black;
     font-size: 10px;
     font-weight: 600;
     padding: 3px 12px;
     margin: 10px;
     border-radius: 15px;
-    border: 1px solid black;;
+    border: 1px solid black;
+
+    transition: all ease-in-out 0.3s;
 }
+
+.devTabs .devs h1:hover{
+    background-color: black;
+    color: white;
+}
+
 
 .devTabs .devs h2{
     font-family: 'Montserrat', sans-serif;
+    color: black;
     font-size: 7px;
     text-transform: uppercase;
     opacity: 0.5;
@@ -181,6 +181,12 @@ body .front{
     margin-top: 20px;
     margin-bottom: 25px;
     background-color: #7DF0C9;
+
+    transition: all ease-in-out 0.4s;
+}
+
+.services-tabs .tab:hover{
+    background-color: #b6ffe7;
 }
 
 
@@ -217,6 +223,7 @@ body .front{
 .info{
     color: black;
     font-size: 10px;
+    font-weight: 400;
     padding: 20px;
     background-color: #00000010;
     border-radius: 10px;
@@ -323,6 +330,12 @@ button{
     font-weight: 700;
     color: rgb(0, 0, 0);
     background-color: #A7FFE1;
+
+    transition: all ease-in-out 0.4s;
+}
+
+button:hover{
+    background-color: #0dffae;
 }
 
 .fa-chevron-right{
@@ -335,43 +348,41 @@ button{
 
 /* FOOTER */
 
-footer{
-    background-color: #00212B;
-    display: inline-flex;
+footer {
     width: 100%;
+    display: inline-block;
+    background-color: #00212B;
 }
 
 footer img{
     height: 10px;
-    padding: 5px;
-    margin: 5px 10px;
+    padding: 10px;
 }
 
-footer h2{
+footer .copyright p{
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
     color: white;
     font-size: 6px;
     font-weight: 500;
-    padding: 5px;
-    margin: 6px 24px;
-    opacity: 0.7;
+    float: left;
 }
 
-footer .social .fab{
-    font-size: 12px;
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
+footer .social{
+    float: right;
 }
 
-.fa-twitter{
-    left: 280px;
-    padding: 6px;
-    margin: 3px;
+footer .fab{
+    padding: 5px 10px;
+    margin: 5px 0px;
+    margin-top: 7px;
+    font-size: 10px;
+    background-color: #0C5265;
+    margin-right: 10px;
+    border-radius: 10%;
+
+    transition: all ease-in-out 0.4s;
 }
 
-.fa-linkedin-in{
-    margin: 3px;
-    padding: 6px;
+footer .fab:hover{
+    background-color: #0184a8;
 }
