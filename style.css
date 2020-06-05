@@ -41,6 +41,7 @@ body .front{
 }
 
 .front .container h1{
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 21px;
     letter-spacing: 1px;
@@ -51,6 +52,7 @@ body .front{
 }
 
 .front .container h2{
+    font-family: 'Montserrat', sans-serif;
     color: white;
     opacity: 0.5;
     font-size: 10px;
@@ -71,6 +73,7 @@ body .front{
 }
 
 .developers .title h1{
+    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 15px;
     text-transform: uppercase;
@@ -80,6 +83,7 @@ body .front{
 }
 
 .developers .title h2{
+    font-family: 'Montserrat', sans-serif;
     color: #00000060;
     font-size: 9px;
     font-weight: 500;
@@ -111,11 +115,13 @@ body .front{
 
 
 .devs h1, h2{
+    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 12px;
 }
 
 .devTabs .devs h1{
+    font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     font-weight: 600;
     padding: 3px 12px;
@@ -125,6 +131,7 @@ body .front{
 }
 
 .devTabs .devs h2{
+    font-family: 'Montserrat', sans-serif;
     font-size: 7px;
     text-transform: uppercase;
     opacity: 0.5;
@@ -141,6 +148,7 @@ body .front{
 }
 
 .services .title h1{
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 15px;
     text-transform: uppercase;
@@ -150,6 +158,7 @@ body .front{
 }
 
 .services .title h2{
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff60;
     font-size: 9px;
     font-weight: 500;
@@ -187,6 +196,7 @@ body .front{
 }
 
 .aboutUs .title h1{
+    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 15px;
     text-transform: uppercase;
@@ -196,6 +206,7 @@ body .front{
 }
 
 .aboutUs .title h2{
+    font-family: 'Montserrat', sans-serif;
     color: #00000060;
     font-size: 9px;
     font-weight: 500;
@@ -225,6 +236,7 @@ body .front{
 }
 
 .contactUs .title h1{
+    font-family: 'Montserrat', sans-serif;
     color: #A7FFE1;
     font-size: 15px;
     text-transform: uppercase;
@@ -234,10 +246,12 @@ body .front{
 }
 
 .contactUs .title h1 span{
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
 }
 
 .contactUs .title h2{
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff60;
     font-size: 9px;
     font-weight: 500;
@@ -334,6 +348,7 @@ footer img{
 }
 
 footer h2{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     font-size: 6px;
