@@ -199,8 +199,8 @@ body .front{
     display: none;
 }
 
-.services-tabs .tab:hover{
-    background-color: #b6ffe7;
+.services-tabs .tab h1:hover{
+    background-color: #53ffaf;
 }
 
 
