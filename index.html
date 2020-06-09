@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProjectOneWay</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="mobile/smallscreen.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/a021eb4f06.js" crossorigin="anonymous"></script>
 </head>
@@ -13,20 +14,40 @@
 <body>
     <div class="container">
         <nav>
-            <div>
-
+            <div class="logo">
                 <img src="images/logo.png" alt="ProjectOneWay logo-S">
             </div>
         </nav>
 
-        <div class="front">
-            <div class="container">
-                <h1>Outsourcing custom <span>software development</span></h1>
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        <div class="navbar">
+            <div class="logo navLNK">
+                <img src="images/logo-BS.png" alt="ProjectOneWay logo-S">
+            </div>
+
+            <div class="container nav-right">
+                <a href="#developers-scroll" class="navTabs nav-links nav-hover" id="devs">Our Developers</a>
+                <a href="#services-scroll" class="navTabs nav-links nav-hover" id="services">Services</a>
+                <a href="#aboutUs-scroll" class="navTabs nav-links nav-hover" id="aboutUs">About Us</a>
+
+                <a href="#contactUs-scroll" class="navTabs nav-links" id="contact">Contact</a>
+
+                <a href="#"><i class="fab fa-linkedin-in nav-links"></i></a>
+                <a href="#"><i class="fab fa-facebook-f nav-links"></i></a>
+
             </div>
         </div>
 
-        <div class="developers">
+
+        <div class="front">
+            <div class="container">
+                <h1>Outsourcing custom <span>software development</span></h1>
+                <a href="#developers-scroll">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="developers" id="developers-scroll">
             <div class="container">
                 <div class="title">
                     <h1>Our Software developers</h1>
@@ -58,7 +79,7 @@
             </div>
         </div>
 
-        <div class="services">
+        <div class="services" id="services-scroll">
             <div class="container">
                 <div class="title">
                     <h1>Our Expertise and Services</h1>
@@ -66,15 +87,33 @@
                 </div>
 
                 <div class="services-tabs">
-                    <div class="tab">Technology and Consulting</div>
-                    <div class="tab">UX design</div>
-                    <div class="tab">software engineering</div>
-                    <div class="tab">operation suppport</div>
+                    <div class="tab">
+                        <h1>Technology and Consulting</h1>
+                        <p class="tabs-info">help you focus on what you really need and align technology, operational
+                            and financial objectives.</p>
+                    </div>
+                    <div class="tab">
+                        <h1>UX design</h1>
+                        <p class="tabs-info">help you focus on what you really need and align technology, operational
+                            and financial objectives.</p>
+                    </div>
+                    <div class="tab">
+                        <h1>software engineering</h1>
+                        <p class="tabs-info">help you focus on what you really need and align technology, operational
+                            and financial objectives.</p>
+                    </div>
+                    <div class="tab">
+                        <h1>operation suppport</h1>
+                        <p class="tabs-info">help you focus on what you really need and align technology, operational
+                            and financial objectives.</p>
+                    </div>
                 </div>
+
+
             </div>
         </div>
 
-        <div class="aboutUs">
+        <div class="aboutUs" id="aboutUs-scroll">
             <div class="container">
                 <div class="title">
                     <h1>about us</h1>
@@ -99,36 +138,37 @@
             </div>
         </div>
 
-        <div class="contactUs">
+        <div class="contactUs" id="contactUs-scroll">
             <div class="container">
-                <div class="title">
+                <div class="title col">
                     <h1>get started with <span>ProjectOneWay</span></h1>
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-
-                    <form action="script" class="form">
-                        <input type="text" name="first-name" placeholder="First name" id="fname" required>
-
-                        <input type="text" name="last-name" placeholder="last name" id="lname" required>
-
-                        <input type="text" name="company" placeholder="company" required>
-
-                        <input type="text" name="email" placeholder="email" required>
-
-                        <button type="submit">contact us<i class="fas fa-chevron-right"></i></button>
-                    </form>
                 </div>
+
+                <form action="script" class="form col">
+                    <input type="text" name="first-name" placeholder="First name" id="fname" required>
+
+                    <input type="text" name="last-name" placeholder="last name" id="lname" required>
+
+                    <input type="text" name="company" placeholder="company" required>
+
+                    <input type="text" name="email" placeholder="email" required><br>
+
+                    <button type="submit" onclick="">contact us<i class="fas fa-chevron-right"></i></button>
+                </form>
+
             </div>
         </div>
-    </div>
 </body>
 
 <footer>
     <img src="images/logo.png" alt="ProjectOneWay logo-S">
 
-    
+
     <div class="social">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-linkedin-in"></i>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
     </div>
 </footer>
 
