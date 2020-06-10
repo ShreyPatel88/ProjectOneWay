@@ -9,17 +9,34 @@
 }
 
 html{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     scroll-behavior: smooth;
 }
 
+nav{
+    
+    background-color: white;
+}
+
+nav .logo .logo-In{
+    display: inline-block;
+    vertical-align: middle;
+}
+
 nav img{ 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 15px;
-    background-color: #000000de;
+    width: 15%;
+    padding: 10px 0;
+    margin-left: 40px;
+}
+
+nav .logo h1{
+    width: fit-content;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 25px;
 }
 
 .navbar{
@@ -51,7 +68,7 @@ body .front{
 }
 
 .front .container h1 span{
-    color:#FFDEA8;
+    color:#02BEF3;
 }
 
 .front .container h2{
@@ -67,86 +84,6 @@ body .front{
 .front .container a{
     text-decoration: none;
 }
-
-
-
-/* DEVELOPERS */
-
-.developers{
-    padding: 20px 0;
-    background-color: white;
-    background-image: url(images/bg-objects.png);
-    background-size: contain;
-}
-
-.developers .title h1{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 15px 5px 0 5px;
-}
-
-.developers .title h2{
-    font-family: 'Montserrat', sans-serif;
-    color: #00000060;
-    font-size: 9px;
-    font-weight: 500;
-    text-align: center;
-    padding: 0 5px 10px 5px;
-}
-
-.devTabs{
-    text-align: center;
-    margin: 10px 0;
-}
-
-.devs img{
-    border: 1px solid black;
-    border-radius: 50%;
-    height: 100px;
-}
-
-.devs{
-    width: 125px;
-    display: inline-block;
-    background-color: #f8f8f8;
-    border-radius: 10px;
-    padding: 20px 15px;
-    margin: 5px;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
-    margin: 10px;
-}
-
-.devTabs .devs h1{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 10px;
-    font-weight: 600;
-    padding: 3px 12px;
-    margin: 10px;
-    border-radius: 15px;
-    border: 1px solid black;
-
-    transition: all ease-in-out 0.3s;
-}
-
-.devTabs .devs h1:hover{
-    background-color: black;
-    color: white;
-}
-
-
-.devTabs .devs h2{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 7px;
-    text-transform: uppercase;
-    opacity: 0.5;
-}
-
 
 
 /* EXPERTISE AND SERVICES */
@@ -181,7 +118,7 @@ body .front{
 }
 
 .services-tabs .tab h1{
-    color: #101F29;
+    color: #0c283b;
     font-size: 10px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -190,7 +127,7 @@ body .front{
     padding: 10px 10px;
     margin-top: 20px;
     margin-bottom: 25px;
-    background-color: #7DF0C9;
+    background-color: #68dcff;
 
     transition: all ease-in-out 0.4s;
 }
@@ -200,7 +137,8 @@ body .front{
 }
 
 .services-tabs .tab h1:hover{
-    background-color: #53ffaf;
+    background-color: #3ac1ff;
+    color: white;
 }
 
 
@@ -257,7 +195,7 @@ body .front{
 
 .contactUs .title h1{
     font-family: 'Montserrat', sans-serif;
-    color: #A7FFE1;
+    color: #68dcff;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -284,7 +222,7 @@ body .front{
 .contactUs .title h2::after{
     content: "";
     display: block;
-    background: #A7FFE1;
+    background:#75e1ff;
     width: 200px;
     height: 1px;
 
@@ -346,19 +284,19 @@ button{
     letter-spacing: 0.5px;
     font-size: 9px;
     font-weight: 700;
-    color: rgb(0, 0, 0);
-    background-color: #A7FFE1;
+    color: white;
+    background-color: #02BEF3;
 
     transition: all ease-in-out 0.4s;
 }
 
 button:hover{
-    background-color: #0dffae;
+    background-color: #009be2;
 }
 
 .fa-chevron-right{
     margin-left: 10px;
-    color: black;
+    color: white;
 }
 
 
